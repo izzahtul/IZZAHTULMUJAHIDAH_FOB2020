@@ -6,10 +6,10 @@ int main (){
 
   srand (time(NULL));
   float num = rand () % 100, jawaban;
-  
+  // aturan dan memasukkan angka
 cout << "Hi, selamat datang di Lab03 Game\n"<< "Bagaimana cara memainkannya?\n" << "Sebut 1 angka kisaran 1-100!\n"<< "Angka berapa yang kamu masukkan ?" << endl;
 cin >> jawaban;
-
+// tebakan 
 if (jawaban > 0 && jawaban <= 100){
 if (num == jawaban){
   cout << "Kamu benar, good job" << endl;
