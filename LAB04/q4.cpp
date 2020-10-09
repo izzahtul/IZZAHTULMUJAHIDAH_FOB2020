@@ -8,7 +8,7 @@ int main (){
 
   cout << " Calculate the BMI" << endl ;
   cout << "--------------------" << endl;
-//input weigt and height
+
   cout << "Enter yours " <<endl; 
 
   cout << "Input Weight (kg) :";
@@ -16,9 +16,9 @@ int main (){
 
   cout << "Input Height (m) :";
   cin >> height;
-// formula to find the BMI
+
   calculateBMI = weight/ (height*height);
-// if-else for know the class (BMI)
+
   if (calculateBMI < 18.5){
     cout << "Underwight";
   }
